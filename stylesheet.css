@@ -1,15 +1,18 @@
 .jumbotron{
     /* Choisis la hauteur ici */
     height: 500px;
-    mask-size: initial;
     
     /* Tu lui donnes une image de background */
-    background-image: url("https://images.pexels.com/photos/1533729/pexels-photo-1533729.jpeg");
+    background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url("https://images.pexels.com/photos/1533729/pexels-photo-1533729.jpeg");
   
     /* Centre l'image et la met bien sur tous les écrans */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
 
 .surf{
