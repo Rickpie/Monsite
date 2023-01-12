@@ -1,1 +1,32 @@
-azeaze
+.jumbotron{
+    /* Choisis la hauteur ici */
+    height: 500px;
+  
+    /* Tu lui donnes une image de background */
+    background-image: url("https://images.pexels.com/photos/1533729/pexels-photo-1533729.jpeg");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.surf{
+    background-image: url("https://images.pexels.com/photos/1588988/pexels-photo-1588988.jpeg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondsurf2{
+    background-image: url("https://images.pexels.com/photos/769158/pexels-photo-769158.jpeg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+}
